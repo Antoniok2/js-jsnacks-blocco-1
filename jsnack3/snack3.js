@@ -3,7 +3,7 @@
 
 let somma = 0;
 
-for(let i=1; i<=10; i++) {
+for(let i = 0; i < 10; i++) {
     let num = parseInt(prompt("Inserisci qui un numero"));
     somma += num;
 }

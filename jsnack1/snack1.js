@@ -13,4 +13,4 @@ if (firstNumb > secondNumb) {
     alert(`Il numero maggiore è ${firstNumb}`);
 }else if (firstNumb < secondNumb) {
     alert("Il numero maggiore è: " + secondNumb);
-}
+} 

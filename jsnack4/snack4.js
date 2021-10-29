@@ -6,14 +6,17 @@ let NomeUtente = prompt("Ciao, gentilmente indica qui il tuo nome");
 
 let valoreUtente = false;
 
+// ESECUZIONE ESERCIZIO
+// CONDIZIONI E CICLO
 for (let i = 0; i < nomeInvitati.length; i++) {
     if (NomeUtente === nomeInvitati[i]) {
         valoreUtente = true;
-        alert("Benvenuto, puoi entrare alla mitica festa " + nomeInvitati[i]);
-    } else if (NomeUtente !== nomeInvitati) {
-        valoreUtente === NomeUtente;
-        console.log("Mi dispiace ma non sei stato invitato");
     }
+}
 
-
+// CONDIZIONI SE EMAIL è CONTENUTA ALL'INTERNO DELL'ARRAY
+if (valoreUtente == true) {
+    alert("Sei il benvenuto alla festa");
+} else {
+    alert("Mi dispiace ma non sei invitato alla festa!!!");
 }
